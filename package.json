@@ -1,0 +1,23 @@
+{
+  "name": "slideprev",
+  "version": "1.0.0",
+  "description": "image slide and preview plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zLoong/slideprev.git"
+  },
+  "keywords": [
+    "slide",
+    "preview"
+  ],
+  "author": "zloong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zLoong/slideprev/issues"
+  },
+  "homepage": "https://github.com/zLoong/slideprev#readme"
+}

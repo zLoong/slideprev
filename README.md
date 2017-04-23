@@ -1,0 +1,1 @@
+#slideprev is image slide and preview plugins
