@@ -7,7 +7,7 @@ module.exports = {
         hot: true,
         inline: true,       
         host: '192.168.1.107',
-        port: 8080
+        port: 9090
     },
     //入口文件，支持数组多文件模式
     entry: './component/index.js',
@@ -18,8 +18,8 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.css$/, loader: 'style-loader!css-loader' },
-            { test: /\.scss$/, loader: 'style-loader!css-loader!sass-loader?sourceMap' },
+            { test: /\.css$/, loader: 'style-loader!css-loader!autoprefixer-loader?safe=true' },
+            { test: /\.scss$/, loader: 'style-loader!css-loader!autoprefixer-loader?safe=true!sass-loader?sourceMap' },
             { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' },
             { test: /\.js$/, loader: "babel-loader", query: { presets: ['es2015', 'react'] } }
         ]
